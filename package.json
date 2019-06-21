@@ -1,28 +1,25 @@
 {
-    "name": "kroonmap",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stakic-igor/kroon-map.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": ""
-    },
-    "homepage": "",
-    "dependencies": {
-      
-    },
-    "devDependencies": {
-      "gulp": "^4.0.2",
-      "gulp-sass": "^4.0.2",
-      "node-sass": "^4.12.0"
-    }
+  "name": "kroonmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stakic-igor/kroon-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
-  
+}

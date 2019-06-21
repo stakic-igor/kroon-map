@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.app {
+  background-image: url(../images/world.png);
+  background-size: cover;
+  height: 1024px;
+  width: 1024px;
+  margin: 0 auto;
+  position: relative; }
+
+.location {
+  position: absolute; }
+  .location--new-york {
+    left: 230px;
+    top: 380px; }
+
+.new {
+  display: none; }

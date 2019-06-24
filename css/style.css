@@ -2,19 +2,60 @@
   margin: 0;
   padding: 0; }
 
-.app {
-  background-image: url(../images/world.png);
-  background-size: cover;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.map {
   height: 1024px;
   width: 1024px;
   margin: 0 auto;
+  background-image: url(../images/world.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top left;
   position: relative; }
 
 .location {
   position: absolute; }
+  .location > img {
+    width: 17px;
+    height: 26px;
+    transition: all ease 180ms;
+    display: inline-block;
+    cursor: pointer; }
+    .location > img:hover {
+      transform: scale(1.9, 1.5);
+      transform-origin: center; }
+  .location__time {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #fff;
+    padding: .250rem .500rem;
+    position: relative;
+    left: calc(-50% + 9px);
+    top: 4px;
+    text-align: center;
+    display: none; }
+    .location__time > h3 {
+      font-size: 1.250rem; }
+    .location__time > p {
+      margin-top: .250rem;
+      font-size: 1.750rem; }
+    .location__time--show {
+      display: block; }
   .location--new-york {
-    left: 230px;
-    top: 380px; }
-
-.new {
-  display: none; }
+    top: 400px;
+    left: 235px; }
+  .location--london {
+    top: 353px;
+    left: 433px; }
+  .location--belgrade {
+    top: 375px;
+    left: 490px; }
+  .location--tokyo {
+    top: 400px;
+    left: 835px; }
+  .location--sidney {
+    top: 622px;
+    left: 868px; }

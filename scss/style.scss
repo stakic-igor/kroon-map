@@ -28,10 +28,14 @@ body {
         transition: all ease 180ms;
         display: inline-block;
         cursor: pointer;
-        &:hover{
+        &:hover {
             transform: scale(1.9, 1.5);
             transform-origin: center;
+            }
         }
+    &--active {
+        transform: scale(1.9, 1.5);
+        transform-origin: center;
     }
     &__time {
         background: rgba(0, 0, 0, .8);

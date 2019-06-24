@@ -27,6 +27,9 @@ body {
     .location > img:hover {
       transform: scale(1.9, 1.5);
       transform-origin: center; }
+  .location--active {
+    transform: scale(1.9, 1.5);
+    transform-origin: center; }
   .location__time {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 3px;

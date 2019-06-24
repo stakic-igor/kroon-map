@@ -8,9 +8,12 @@ $(document).ready(function() {
             target.on('click', function() {
                 if($($(this).data('time')).hasClass('location__time--show')) {
                     $(item).removeClass('location__time--show');
+                    $(this).removeClass('location--active');
                 } else {
                     $(item).removeClass('location__time--show');
                     $($(this).data('time')).addClass('location__time--show');
+                    $(target).removeClass('location--active');
+                    $(this).addClass('location--active');
                 }
             })
         }
@@ -20,6 +23,7 @@ $(document).ready(function() {
                 var target = e.target;
                 var closestItem = target.closest('.js-target');
                 if(!$(closestItem).is($(target))) {
+                    $(this).find('img').removeClass('location--active')
                     $(this).find(item).removeClass('location__time--show');
                 }
             });
